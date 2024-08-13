@@ -5,10 +5,10 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0rem) {
   :root {
-    --primary: #ff6a3e;
-    --primaryLight: #ffba43;
-    --secondary: #ffba43;
-    --secondaryLight: #ffba43;
+    --primary: #146EEB;
+    --primaryLight: #364CC9;
+    --secondary: #C9B336;
+    --secondaryLight: #EB9114;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
@@ -281,7 +281,7 @@
   #cs-navigation {
     z-index: 10000;
     position: fixed;
-    background-color: #fff;
+    background-color: #F6F5F2;
     width: 100%;
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
@@ -741,7 +741,7 @@
   #cs-navigation {
     z-index: 10000;
     position: fixed;
-    background-color: #fff;
+    background-color: #F6F5F2;
     width: 100%;
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
