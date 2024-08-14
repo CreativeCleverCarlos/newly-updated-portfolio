@@ -10,8 +10,10 @@
     --secondary: #C9B336;
     --secondaryLight: #EB9114;
     --headerColor: #1a1a1a;
+    --headerColorLightMode: #F2BD75;
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
+    --bodyTextColorLightMode: #F9E3C4;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
@@ -48,7 +50,7 @@
     text-align: inherit;
     max-width: 43.75rem;
     margin: 0 0 1rem 0;
-    color: var(--headerColor);
+    color: var(--headerColorLightMode);
     position: relative;
   }
   .cs-text {
@@ -58,7 +60,7 @@
     width: 100%;
     max-width: 40.625rem;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: var(--bodyTextColorLightMode);
   }
   .cs-button-solid {
     z-index: 1;
@@ -1052,7 +1054,7 @@
   #cs-footer-1862 {
     padding: var(--sectionPadding);
     padding-bottom: 2.5rem;
-    background-color: #F6EDDF;
+    background-color: #F6F5F2;
   }
   #cs-footer-1862 .cs-container {
     width: 100%;
