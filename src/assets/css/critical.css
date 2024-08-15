@@ -114,7 +114,7 @@
     color: #fff;
     padding: 0 calc(48 / 16 * 1rem);
     border-radius: calc(30 / 16 * 1rem);
-    background-color: var(--primary);
+    background-color: var(--secondaryLight);
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -134,7 +134,7 @@
     transition: width 0.3s;
   }
   #hero-1350 .cs-button-solid:hover {
-    color: var(--primary);
+    color: var(--secondaryLight);
   }
   #hero-1350 .cs-button-solid:hover:before {
     width: 100%;
@@ -297,5 +297,17 @@
     left: auto;
     top: calc(210 / 16 * 1rem);
     bottom: auto;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+  body.dark-mode #hero-1350 .cs-title {
+    color: #fff;
+  }
+  body.dark-mode #hero-1350 .cs-text {
+    color: #fff;
+  }
+  body.dark-mode #hero-1350 .cs-stats-group:before {
+    background-color: var(--dark);
   }
 }

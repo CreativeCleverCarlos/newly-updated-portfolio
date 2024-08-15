@@ -66,7 +66,7 @@
     z-index: 1;
     position: relative;
     display: inline-block;
-    background-color: var(--primary);
+    background-color: var(--secondaryLight);
     width: auto;
     padding: 0 1.875rem;
     text-decoration: none;
@@ -74,6 +74,7 @@
     font-size: 1rem;
     line-height: 3.125em;
     font-weight: bold;
+    border-radius: calc(30 / 16 * 1rem);
     color: #000;
     transition: color 0.3s;
     transition-delay: 0.1s;
@@ -95,6 +96,7 @@
     display: block;
     background-color: #000;
     height: 100%;
+    border-radius: calc(30 / 16 * 1rem);
     width: 0;
     transition: width 0.3s;
   }
@@ -1116,7 +1118,7 @@
     transition: background-color 0.3s;
   }
   #cs-footer-1862 .cs-social-link:hover {
-    background-color: var(--primary);
+    background-color: var(--secondaryLight);
   }
   #cs-footer-1862 .cs-social-link:hover .cs-social-icon {
     filter: grayscale(1) brightness(1000%);
