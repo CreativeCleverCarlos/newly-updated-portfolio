@@ -312,6 +312,7 @@
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
     padding: 0;
+    text-decoration: none;
   }
   #cs-navigation .cs-logo img {
     height: 100%;
